@@ -1,7 +1,7 @@
 class K0sctl < Formula
   desc "k0s Zero-Friction Kubernetes cluster control tool"
   homepage "https://github.com/k0sproject/k0sctl"
-  head "https://github.com/k0sproject/k0sctl.git"
+  head "https://github.com/k0sproject/k0sctl.git", branch: "main"
 
   depends_on "go" => [:build, :test]
 
